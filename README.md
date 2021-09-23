@@ -15,13 +15,26 @@ core functionality.
 
 `go get` needs some additional steps in order to work as expected.
 
-Get the source, add DIDKit and SSI as submodules to your repo, build it and point to it:
+### Get the source
+Add DIDKit and SSI as submodules to your repo. 
 
 ```bash
 $ go get github.com/spruceid/didkit-go
 $ git submodule add https://github.com/spruceid/didkit.git extern/didkit
 $ git submodule add https://github.com/spruceid/ssi.git extern/ssi
+```
+
+### Build it
+DIDKit is written in Rust. To get Rust, you can use [Rustup](https://rustup.rs/).
+
+```bash
 $ make -C extern/didkit/lib ../target/test/c.stamp
+```
+
+### Point to it
+Replace with the built version of the library.
+
+```bash
 $ go mod edit -replace=github.com/spruceid/didkit-go=./extern/didkit/lib/didkit-go
 ```
 
