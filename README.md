@@ -22,6 +22,7 @@ Add DIDKit and SSI as submodules to your repo.
 $ go get github.com/spruceid/didkit-go
 $ git submodule add https://github.com/spruceid/didkit.git extern/didkit
 $ git submodule add https://github.com/spruceid/ssi.git extern/ssi
+$ git submodule update --init --recursive
 ```
 
 ### Build it
