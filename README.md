@@ -9,7 +9,7 @@ suitability across different platforms including embedded systems. DIDKit
 embeds the [`ssi`](https://github.com/spruceid/ssi) library, which contains the
 core functionality.
 
-![DIDKit core components](https://spruceid.dev/assets/images/didkit-core-components-7abba2778ffe8dde24997f305e706bd8.png)
+![DIDKit core components](https://spruceid.dev/assets/images/didkit-core-components-645bb0992bdef492c3bdae3e540166a7.png)
 
 ## go get
 
