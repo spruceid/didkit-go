@@ -11,6 +11,8 @@ core functionality.
 
 ![DIDKit core components](https://spruceid.dev/assets/images/didkit-core-components-645bb0992bdef492c3bdae3e540166a7.png)
 
+## [Template repo](https://github.com/w4ll3/didkit-go-template)
+
 ## go get
 
 `go get` needs some additional steps in order to work as expected.
